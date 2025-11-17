@@ -30,11 +30,11 @@ pip install -r requirements.txt
 # Set up Google Cloud credentials
 export GOOGLE_API_KEY=your-google-gemini-api-key
 
-# run the specific agent
+# Run the agent
 # 1. run with command-line interface
 adk run agents/agent_folder_name
 # 2. run with web interface
-adk web --port 8000
+adk web agents
 ```
 
 ## 📚 Agent Architecture Types
