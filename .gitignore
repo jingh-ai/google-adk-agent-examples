@@ -205,3 +205,12 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# MacOS
+.DS_Store
+
+# Google ADK Agents
+.google_adk_agents_cache/
+.google_adk_tools_cache/
+.google_adk_models_cache/
+.google_adk_embeddings_cache/
